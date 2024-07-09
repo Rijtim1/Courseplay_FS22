@@ -35,7 +35,7 @@
 		<Setting classType="AIParameterBooleanSetting" name="avoidFruit" defaultBool="true" isExpertModeOnly="true"/>
 		<!--Pathfinder Reverse-->
 		<Setting classType="AIParameterBooleanSetting" name="allowReversePathfinding" defaultBool="true" isExpertModeOnly="true" isVisible="areCourseSettingsVisible"/>
-		<Setting classType="AIParameterBooleanSetting" name="allowPathfinderTurns" defaultBool="false" isExpertModeOnly="true" isVisible="areCourseSettingsVisible"/>
+		<Setting classType="AIParameterBooleanSetting" name="allowPathfinderTurns" defaultBool="true" isExpertModeOnly="true" isVisible="areCourseSettingsVisible"/>
 	</SettingSubTitle>
 
 	<SettingSubTitle title="implement">
@@ -94,7 +94,7 @@
 		<!--Selfunload-->
 		<Setting classType="AIParameterBooleanSetting" name="selfUnload"/>
 		<!--Unload on first Headland-->
-		<Setting classType="AIParameterBooleanSetting" name="unloadOnFirstHeadland" defaultBool="false" isExpertModeOnly="true"/>
+		<Setting classType="AIParameterBooleanSetting" name="unloadOnFirstHeadland" defaultBool="true" isExpertModeOnly="true"/>
 		<!--UnloadLevel-->
 		<Setting classType="AIParameterSettingList" name="callUnloaderPercent" min="60" max="90" incremental="5" default ="80" unit="4" isExpertModeOnly="false"/>
 		<!--Strawswath-->
@@ -114,7 +114,7 @@
 
 	<SettingSubTitle title="seeder" isVisible="areSowingMachineSettingsVisible">
 		<!--Ridgemarker-->	
-		<Setting classType="AIParameterBooleanSetting" name="ridgeMarkersAutomatic" defaultBool="false" isVisible="isRidgeMarkerSettingVisible" isExpertModeOnly="true"/>
+		<Setting classType="AIParameterBooleanSetting" name="ridgeMarkersAutomatic" defaultBool="true" isVisible="isRidgeMarkerSettingVisible" isExpertModeOnly="true"/>
 		<!--Fertilizer-->
 		<Setting classType="AIParameterBooleanSetting" name="sowingMachineFertilizerEnabled" defaultBool="true" isVisible="isSowingMachineFertilizerSettingVisible"/>
 		<!--Optional sowing machine-->
